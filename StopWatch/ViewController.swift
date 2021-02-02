@@ -27,8 +27,7 @@ class ViewController: UIViewController {
     }
     @IBAction func startButton(_ sender: UIButton) {
         if isStarted{
-            counter=0.0
-            
+           // counter=0.0
             timer?.invalidate()
             startbuttonLabel.setTitle("START", for: .normal)
             isStarted=false
